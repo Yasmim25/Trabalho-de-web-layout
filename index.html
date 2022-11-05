@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Sistema de equipamento</title>
+</head>
+<body>
+    <div class="myDiv">
+        <h2>Sistema de equipamentos de Ar-condicionados</h2>
+      </div>
+    <marquee>Monitoramento de Ar-condicionados</marquee>
+
+    <h1>Abaixo três ar condicionados: Ligado, Desligado e manutenção</h1>
+    <button onclick="myFunction()">Ao clicar, uma mensagem será exibida na tela.</button> <br><br><br>
+    <div class="box1">
+        <h2>Ar condicionado 1</h2>
+        <label class="switch">
+            <input type="checkbox" checked>
+            <span class="slider">Ligado</span><br><br>
+            <img class="img1" src="img ligado.png" alt="">
+            
+          </label>
+        </div><br><br>
+    <div class="box2">
+        <h2>Ar condicionado 2</h2>
+        <label class="switch">
+            <input type="checkbox">
+            <span class="slider round">Desligado</span><br><br>
+            <img class="img2" src="img desligado.png" alt="">
+
+          </label>
+        </div><br>
+        <div class="box3">
+            <h2>Ar condicionado 3</h2>
+            <p class="p3">Ar-condicionado em manutenção:</p>
+            <img class="img3" src="img manutenção.png" alt="Em manutenção">  
+        </div>
+    
+        <script>
+            function myFunction() {
+            alert("Olá! Esta é uma tela de monitoramento de ar-condicionados.");
+        }
+</script>
+      
+
+        <div class="footer">
+        <p class="p2">Monitoramento de ar-condicionados</p>
+        </div>
+</body>
+</html>
