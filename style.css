@@ -1,0 +1,95 @@
+body{
+    background-color: gainsboro;
+}
+.myDiv {
+    border: 5px outset rgb(0, 225, 255);
+    background-color: lightblue;    
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+  }
+  div.box1{
+    margin-left: 15px;
+    margin-top: 50px;
+    background-color: rgb(163, 226, 157);
+    width: 250px;
+    border: 2px solid black ;
+    float: left;
+    
+}
+div.box2{
+    margin-top: 20px;
+    margin-left: 550px;
+    background-color: rgb(154, 210, 243);
+    width: 250px;
+    border: 2px solid black ;
+    align-items: center;
+    float: left;
+    
+    
+}
+div.box3{
+    margin-right: 15px;
+    margin-top: 50px;
+    background-color: rgb(146, 170, 238);
+    width: 250px;
+    border: 2px solid black ;
+    float: right;
+    
+}
+p {
+    color: rgb(255, 255, 255);
+}
+
+.p2 {
+    font-size: 20px;
+}
+
+.p3 {
+    color: black;
+}
+
+.img1 {
+    width: 50px;
+    box-shadow: 0px 0px 5px;
+    margin: 35%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.img2 {
+    width: 50px;
+    box-shadow: 0px 0px 5px;
+    margin: 35%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.img3 {
+    width: 50px;
+    box-shadow: 0px 0px 5px;
+    margin: 35%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+
+}
+
+
+
+
+.footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: rgb(177, 75, 75);
+    color: white;
+    text-align: center;
+
+ }
+ 
